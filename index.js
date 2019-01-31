@@ -21,7 +21,8 @@ function currentLine(line) {
     var output = `The line is currently: `
     output += num
     output += `. `
-    output += line[i] 
+    output += line[i]
+    output += `,` 
   }
   return output
   }
