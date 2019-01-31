@@ -14,6 +14,5 @@ function nowServing(cline) {
 
 function currentLine(line) {
   var output = `The line is currently: `
-
-
+  
 }
