@@ -22,9 +22,9 @@ function currentLine(line) {
     var num = i + 1
     output += num
     output += `. `
-    output += line[i]
+    output += line[i] + ` `
 
   }
-  output.toLocaleString()
+
   return output
 }
