@@ -19,10 +19,6 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++){
     var num = i + 1
     var output = `The line is currently: `
-    output += num
-    output += `. `
-    output += line[i]
   }
   }
-  return output
 }
