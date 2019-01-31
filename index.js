@@ -23,9 +23,9 @@ function currentLine(line) {
     output += num
     output += `. `
     output += line[i]
-    if (i !== line.length){
+    if (i < line.length){
       output += `, `
-    }
+    } 
   }
   return output
 }
