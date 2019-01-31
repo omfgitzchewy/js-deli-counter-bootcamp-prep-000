@@ -23,7 +23,7 @@ function currentLine(line) {
 
     output += num
     output += `. `
-    output += line[i],
+    output += line[i] + `s`
   }
   return output
 }
