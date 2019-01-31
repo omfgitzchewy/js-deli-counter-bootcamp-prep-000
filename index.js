@@ -22,7 +22,6 @@ function currentLine(line) {
     output += num
     output += `. `
     output += line[i]
-    output += `,`
   }
   }
   return output
