@@ -20,9 +20,9 @@ function currentLine(line) {
     var num = i + 1
     var output = `The line is currently: `
     output += num
-    output += `. `
+    output.concat(`.`)
     output += line[i]
-    output += `,` 
+    output.concat(`,`) 
   }
   return output
   }
