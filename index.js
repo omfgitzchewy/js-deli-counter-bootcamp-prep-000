@@ -20,10 +20,11 @@ function currentLine(line) {
   var output = `The line is currently: `
   for (var i = 0; i < line.length; i++){
     var num = i + 1
-
     output += num
     output += `. `
-    output += line[i] + `, `
+    output += line[i]
+
   }
+  output.toLocaleString()
   return output
 }
