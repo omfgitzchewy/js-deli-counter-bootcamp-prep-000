@@ -14,5 +14,9 @@ function nowServing(cline) {
 
 function currentLine(line) {
   var output = `The line is currently: `
-  
+  if (line.length === 0){
+    return 'The line is currently empty.'
+  } else {
+    return output
+  }
 }
