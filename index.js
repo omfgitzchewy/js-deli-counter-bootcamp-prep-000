@@ -13,12 +13,17 @@ function nowServing(cline) {
 }
 
 function currentLine(line) {
+  for (var i = 0; i < line.length; i++){
   if (line.length === 0){
     return 'The line is currently empty.'
   } else {
-    for (var i = 0; i < line.length; i++){
+
     var num = i + 1
     var output = `The line is currently: `
+    output += num
+    output += `. `
+    output += line[i]
   }
   }
+  return output
 }
